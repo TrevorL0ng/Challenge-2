@@ -5,27 +5,28 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content = "width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/thiccstyle.css">
+    <!-- <link rel="stylesheet" href="./assets/css/thiccstyle.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <title>Trevor Long portfolio</title>
 
 </head>
 
-<body>
+<body class="bg-secondary text-white">
     <header>
-        <h1> <img src="../Challenge-2/assets/TLprofpic.jpg" alt=""
+        <h1 class = "col-3 my-3"> <img src="../Challenge-2/assets/TLprofpic.jpg" alt="" 
                 width="200"
                 height="150" />
         </h1>
-        <nav>
-            <ul>
+        <nav class="">
+            <ul class="bg-dark align-items-center float-right p-1">
 
-                <li class = "about">
+                <li class = "about list-unstyled my-3">
                     <a href="#aboutMe">About me</a>
                 </li>
-                <li class = "work">
+                <li class = "work list-unstyled my-3">
                     <a href="#myWork">My Work</a>
                 </li>
-                <li class = "contact">
+                <li class = "contact list-unstyled my-3">
                     <a href="#contactMe">Contact Me</a>
                 </li>
 
@@ -33,7 +34,7 @@
         </nav>
     </header>
 
-        <section id = "aboutMe" class = "me">
+        <section id = "aboutMe" class = "me col-4 flex-wrap">
             <h2>
                 My name is Trevor.
 
@@ -42,23 +43,28 @@
         </section>
 
 
-        <section id = "myWork" class = "projects">
+        <section id = "myWork" class = "projects text-center">
             <h1>
                 My favorite things
             </h1>
-            <article class = "portfolio">
-                <a href="#portfolioStuff">
-
-                </a>
-            </article>
+            <h5 class = "portfolio">
+                Dungeons & Dragons
+                <img src="assets/dice background.jpg " class="img-circle" style="max-width:30%"> 
+            </h5>
+        </section>
+        <section class = "p-5 my-4 ">
+            <h6>
+                Video Games
+                <img src="assets/The Chief.jpg" style="max-width: 20%;">
+            </h6>
         </section>
 
-    <footer>
+    <footer class="fixed-bottom ">
         <ul>
-            <li>
+            <li class="list-unstyled text-right mr-3 my-4">
                  XXX-XXX-XXXX
             </li>
-            <li>
+            <li class="list-unstyled text-right mr-3 my-4">
                 Gmail: trevorlong992@gmail.com
             </li>
         </ul>

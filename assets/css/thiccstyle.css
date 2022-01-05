@@ -20,6 +20,15 @@
     }
 }
 
+h1, h2, h3 {
+    line-height: 1.1;
+    margin: 0;
+ }
+
+ h1 {font-size: var(--fs-h1);}
+ h2 {font-size: var(--fs-h2);}
+ h3 {font-size: var(--fs-h3);}
+
 body {
     background-color: rgba(233, 216, 119, 0.534);
     margin: 0;
@@ -63,21 +72,11 @@ header nav ul li {
     font-family: var(--mainFont);
 }
 
-.city{
-    display: flex;
-}
-.city p {
-    font-family: var(--mainFont);
-    font-size: large;
-    color: rgb(213, 18, 219);
-}
 
 img {
     display: block;
     max-width: 100%;
 }
-
-
 
 footer {
     font-size: medium;
